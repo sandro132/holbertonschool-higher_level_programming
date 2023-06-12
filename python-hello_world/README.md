@@ -57,5 +57,7 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 ## Author :eye:
 
 * ![GitHub Contributors Image](https://contrib.rocks/image?repo=sandro132/holbertonschool-low_level_programming) 
-Miguel Angel Velez Ocampo - <a href="https://github.com/sandro132" target="_blank"> @sandro132</a>![Your Repository's Stats](https://github-readme-stats.vercel.app/api?username=sandro132&show_icons=true)
+Miguel Angel Velez Ocampo - <a href="https://github.com/sandro132" target="_blank"> @sandro132
+
+</a>![Your Repository's Stats](https://github-readme-stats.vercel.app/api?username=sandro132&show_icons=true)
 ***
