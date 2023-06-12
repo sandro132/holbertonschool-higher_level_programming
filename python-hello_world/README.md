@@ -1,20 +1,20 @@
-# PYTHON - HELLO, WORLD
+# PYTHON - HELLO, WORLD :boom:
 
 ![](https://i.pinimg.com/originals/d3/16/46/d31646b7c3a8d1592c06ed9b6525ceff.jpg)
 
-## Index
-[index](#index)
-[Learning Objetives](#learning-objectives)
-[General](#general)
-[Requirements](#requirements)
-[Files](#files)
-[Author](#author)
+## Index :cupid:
+* [index](#index)
+* [Learning Objetives](#learning-objectives)
+* [General](#general)
+* [Requirements](#requirements)
+* [Files](#files)
+* [Author](#author)
 ---
-## Learning Objectives
+## Learning Objectives :dizzy:
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
+***
 
----
-### General
+### General :anatomical_heart:
 
 * How to use the Python interpreter
 * How to print text and variables using **print**
@@ -23,8 +23,8 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 * What is the official Python coding style and how to check your code with **pycodestyle**
 
 ---
-## Requirements 
-### Python Scripts
+## Requirements :bicyclist:
+### Python Scripts :biking_woman:
 
 * Allowed editors: **vi**, **vim**, **emacs**
 * All your files will be interpreted/compiled on Ubuntu 20.04 LTS using python3 (version 3.8.*)
@@ -37,7 +37,7 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 * The length of your files will be tested using **wc**
 
 ---
-## Files
+## Files :cartwheeling:
 * **2-print.py:** Write a Python script that prints exactly **"Programming is like building a multilingual puzzle**, followed by a new line.
 
 * **3-print_number.py:** Complete this source code in order to print the integer stored in the variable **number**, followed by **Battery street**, followed by a new line.
@@ -54,7 +54,7 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 
 * **9-easter_egg.py** Write a Python script that prints “The Zen of Python”, by TimPeters, followed by a new line.
 ***
-## Author 
+## Author :eye:
 
 * ![GitHub Contributors Image](https://contrib.rocks/image?repo=sandro132/holbertonschool-low_level_programming) 
 Miguel Angel Velez Ocampo - <a href="https://github.com/sandro132" target="_blank"> @sandro132</a>![Your Repository's Stats](https://github-readme-stats.vercel.app/api?username=sandro132&show_icons=true)
