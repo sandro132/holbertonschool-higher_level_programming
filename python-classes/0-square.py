@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+"""Create a new class"""
 class Square:
-    def __init__(self):
-        pass
+    """class empty"""
+    pass
