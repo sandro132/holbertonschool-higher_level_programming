@@ -31,7 +31,7 @@ Tests02:
     >>> my_list.print_sorted()
     [-2, 4, 5]
 
-test03:
+Test03:
     add str to MyList:
     >>> my_list = MyList()
     >>> my_list.append(5)
@@ -42,3 +42,22 @@ test03:
     Traceback (most recent call last):
     ...
     TypeError: '<' not supported between instances of 'str' and 'int'
+
+Test04:
+-----
+    add Float to MyList:
+    >>> my_list = MyList()
+    >>> my_list.append(5)
+    >>> my_list.append(3.5)
+    >>> my_list.append(4)
+
+    >>> my_list.print_sorted()
+    [3.5, 4, 5]
+
+Test05:
+-----
+    MyList empty:
+    >>> my_list = MyList()
+    >>> my_list.print_sorted()
+    []
+
