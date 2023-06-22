@@ -82,3 +82,11 @@ Test07:
 
     >>> my_list.print_sorted()
     [3, 4, 5]
+
+Test08:
+    >>> my_list = MyList()
+    >>> a = [1, 9, 4]
+    >>> my_list = MyList(a)
+
+    >>> my_list.print_sorted()
+    [1, 4, 9]
