@@ -80,5 +80,5 @@ Test07:
     >>> my_list.append(4)
     >>> my_list.append(3)
 
-    >>> print(my_list.print_sorted())
+    >>> my_list.print_sorted()
     [3, 4, 5]
