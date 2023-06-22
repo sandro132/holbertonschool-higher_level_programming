@@ -85,8 +85,7 @@ Test07:
 
 Test08:
     >>> my_list = MyList()
-    >>> a = [1, 9, 4]
-    >>> my_list = MyList(a)
+    >>> my_list = MyList([1, 2, 3])
 
     >>> my_list.print_sorted()
-    [1, 4, 9]
+    [1, 2, 3]
