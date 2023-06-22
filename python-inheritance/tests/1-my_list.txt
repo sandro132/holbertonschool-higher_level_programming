@@ -61,3 +61,13 @@ Test05:
     >>> my_list.print_sorted()
     []
 
+Test06:
+-----
+    add zero to MyList
+    >>> my_list = MyList()
+    >>> my_list.append(5)
+    >>> my_list.append(0)
+    >>> my_list.append(4)
+
+    >>> my_list.print_sorted()
+    [0, 4, 5]

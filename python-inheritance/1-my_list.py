@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-''' Documentation'''
+'''Function that source to list'''
 
 
 class MyList(list):
