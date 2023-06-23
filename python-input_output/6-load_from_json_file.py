@@ -6,7 +6,6 @@ import json
 
 
 def load_from_json_file(filename):
-    '''open tthe file and creation'''
+    '''open the file and creation'''
     with open(filename, 'x', decoding='utf-8') as files:
         return json.load(files)
-    
