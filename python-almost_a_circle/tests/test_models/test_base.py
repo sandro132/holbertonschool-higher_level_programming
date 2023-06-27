@@ -22,7 +22,7 @@ class TestBase(unittest.TestCase):
 
         self.assertEqual(b4.id, 89)
 
-    def test_to_json_string_none(self):
+    #def test_to_json_string_none(self):
 
     if __name__ == "__main__":
         unittest.main()
