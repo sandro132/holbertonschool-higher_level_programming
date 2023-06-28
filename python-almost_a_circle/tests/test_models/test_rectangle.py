@@ -78,5 +78,8 @@ class TestRectangle(unittest.TestCase):
 
         self.assertEqual(r15.area(), 2)
 
-    if __name__ == "__main__":
-        unittest.main()
+    def test_rectangle_method_display_without_x_and_y(self):
+        pass
+
+if __name__ == "__main__":
+    unittest.main()
