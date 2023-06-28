@@ -10,7 +10,6 @@ from models.base import Base
 class Rectangle(Base):
     '''Class Resctangle inherited from Base'''
     def __init__(self, width, height, x=0, y=0, id=None):
-
         self.width = width
         self.height = height
         self.x = x
@@ -72,3 +71,6 @@ class Rectangle(Base):
         elif value < 0:
             raise ValueError('y must be >= 0')
         self.__y = value
+
+    def area(self):
+        return self.__width * self.__height

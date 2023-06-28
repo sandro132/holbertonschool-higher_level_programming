@@ -38,7 +38,7 @@ class TestRectangle(unittest.TestCase):
 
 
     def test_rectangle_with_the_heigt_str(self):
-        with self.assertRaisesRegex(TypeError, "heigth must be an integer"):
+        with self.assertRaisesRegex(TypeError, "height must be an integer"):
             r6 = Rectangle(1, "2")
 
     def test_rectangle_with_the_x_str(self):
@@ -54,7 +54,7 @@ class TestRectangle(unittest.TestCase):
             r9 = Rectangle(-1, 2)
 
     def test_rectangle_with_the_heigth_is_negative(self):
-        with self.assertRaisesRegex(ValueError, "heigth must be > 0"):
+        with self.assertRaisesRegex(ValueError, "height must be > 0"):
             r10 = Rectangle(1, -2)
 
     def test_rectangle_with_the_x_is_negative(self):
@@ -70,8 +70,13 @@ class TestRectangle(unittest.TestCase):
             r13 = Rectangle(0, 2)
 
     def test_rectangle_with_the_heigth_is_zero(self):
-        with self.assertRaisesRegex(ValueError, "heigth must be > 0"):
+        with self.assertRaisesRegex(ValueError, "height must be > 0"):
             r14 = Rectangle(1, 0)
+
+    def test_rectangle_method_area(self):
+        r15 = Rectangle(1, 2)
+
+        self.assertEqual(r15.area(), 2)
 
     if __name__ == "__main__":
         unittest.main()
