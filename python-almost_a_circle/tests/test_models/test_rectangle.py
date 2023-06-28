@@ -1,6 +1,8 @@
 #!/usr/bin/python3
 from models.rectangle import Rectangle
 import unittest
+from unittest.mock import patch
+import io
 
 class TestRectangle(unittest.TestCase):
     def test_rectangle_with_two_arguments(self):
@@ -79,7 +81,11 @@ class TestRectangle(unittest.TestCase):
         self.assertEqual(r15.area(), 2)
 
     def test_rectangle_method_display_without_x_and_y(self):
-        pass
+        rect = Rectangle(4, 5, 2, 3, 1)
+        expected_output = "\n\n\n  ####\n  ####\n  ####\n  ####\n  ####\n"
+        with patch('sys.stdout', new=io.StringIO()) as fake_out:
+            rect.display()
+            self.assertEqual(fake_out.getvalue(), expected_output)
 
 
 if __name__ == "__main__":
