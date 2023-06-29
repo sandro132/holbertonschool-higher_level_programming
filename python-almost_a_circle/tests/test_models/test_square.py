@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 import json
 import os
 import unittest
@@ -179,14 +180,16 @@ class TestSquare(unittest.TestCase):
         square2 = Square(7, 4, 5, 2)
         squares = [square1, square2]
 
-
+        # Guardar los objetos Square en un archivo JSON
         filename = "Square.json"
         with open(filename, "w") as jsonfile:
             jsonfile.write(Square.to_json_string(
                 [square.to_dictionary() for square in squares]))
 
+        # Cargar los objetos Square desde el archivo JSON
         loaded_squares = Square.load_from_file()
 
+        # Verificar que se hayan cargado los objetos correctamente
         self.assertEqual(len(loaded_squares), 2)
         self.assertIsInstance(loaded_squares[0], Square)
         self.assertIsInstance(loaded_squares[1], Square)
