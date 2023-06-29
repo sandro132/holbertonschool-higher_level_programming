@@ -26,3 +26,13 @@ class Base:
         if list_dictionaries is None or len(list_dictionaries) == 0:
             return "[]"
         return json.dumps(list_dictionaries)
+
+    '''decorator class method'''
+    @classmethod
+    def save_to_file(cls, list_objs):
+        '''writes the JSON string representation'''
+        filename = cls.__name__ + ".json"
+        json_str = cls.to_json_string(
+            [obj.to_dictionary()for obj in list_objs] if list_objs else [])
+        with open(filename, "w") as file:
+            file.write(json_str)
